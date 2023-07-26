@@ -3,11 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de tareas</title>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="list.css">
 </head>
 <body>
+  <div class="container">
+    <div class="todo-app">
+        <center>
+            <h1><strong>To Do List</strong></h1>
+        </center>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Agregar Tarea...."> 
+            <button id="button" onclick="addTask()">Ingresar</button>
+            <div id="contador">
+                <p id="counter">0</p>
+            </div>
+        </div>
+        <div id="taks">
 
+        </div>
+        <ul id="list-container">
+            <!-- <li>Tarea 1</li>
+            <li>Tarea 2</li>
+            <li>Tarea 3</li> -->
+            <!-- <div style="display: flex;">
+                <input type="checkbox">
+                <li style="text-decoration: none;">ola</li>
+
+            </div> -->
+        </ul>
+        
+    </div>
+    <div class="empty">
+        <p>No tienes tareas pendientes</p>
+    </div>
+  </div>
     
 </body>
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>
-<!-- hola -->

@@ -1,0 +1,58 @@
+body{
+    background: #FEAC5E;  
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    
+}
+h1{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ee51ff;
+    text-shadow: 2px 2px 5px #ffa673;
+    
+}
+.todo-app{
+    background-color: white;
+    width: 100%;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    max-width: 800px;
+}
+#contador{
+    border-radius: 50%;
+    border: solid 1px rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+
+}
+#counter{
+    text-align: center;
+    left: 50%;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+#input-box{
+    border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 150px;
+    font-size: medium;
+}
+#button{
+    background-color: #C779D0;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+
+}
+#button:hover{
+    cursor:pointer;
+    background-color: #4BC0C8;
+    color: rgb(0, 0, 0);
+}
+
+.PruebaMarco{
+    display: flex;
+}
