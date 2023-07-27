@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
-    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+ 
   <div class="container">
     <div class="todo-app">
         <center>
@@ -14,7 +15,8 @@
         </center>
         <div class="row">
             <input type="text" id="input-box" placeholder="Agregar Tarea...."> 
-            <button id="button" onclick="addTask()">Ingresar</button>
+            <button id="button" onkeypress="doNothing()" onclick="addTask()">Ingresar</button>
+            <p id="circle">Tareas completadas</p>
             <div id="contador">
                 <p id="counter">0</p>
             </div>
@@ -32,10 +34,10 @@
 
             </div> -->
         </ul>
+        <!-- <div class="dont">
+            <p>No tienes tareas pendientes</p>
+        </div> -->
         
-    </div>
-    <div class="empty">
-        <p>No tienes tareas pendientes</p>
     </div>
   </div>
     

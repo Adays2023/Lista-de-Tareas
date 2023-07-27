@@ -1,14 +1,15 @@
 body{
     background: #FEAC5E;  
     background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
-    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
-    
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
 }
+
 h1{
     font-size: xx-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #ee51ff;
     text-shadow: 2px 2px 5px #ffa673;
+    
     
 }
 .todo-app{
@@ -55,4 +56,35 @@ h1{
 
 .PruebaMarco{
     display: flex;
+    list-style-type: none;
+    
+}
+ul li.checked::before{
+    text-decoration: line-through;
+}
+
+.dont{
+    color: #000000;
+    padding-left: 38%;  
+}
+.dont:hover{
+    color: white;
+
+}
+#circle{
+ padding-left: 10px;
+ color: #000000;
+ font-size: large;
+ text-shadow: 2px 2px 5px #00bfff;
+}
+.deleteBtn{
+ color: rgb(0, 200, 255);
+ background-color: white;
+ border-color: white;
+
+
+}
+.deleteBtn:hover{
+ cursor: pointer;
+ color: #ff0000;
 }
